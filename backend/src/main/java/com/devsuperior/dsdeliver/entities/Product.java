@@ -27,13 +27,13 @@ public class Product implements Serializable {
 		
 	}
 
-	public Product(Long id, String name, Double price, String description, String imageuri) {
+	public Product(Long id, String name, Double price, String description, String imageUri) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.price = price;
 		this.description = description;
-		this.imageUri = imageuri;
+		this.imageUri = imageUri;
 	}
 
 	public Long getId() {
